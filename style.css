@@ -8,10 +8,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0px; 
+    margin: auto; 
     max-width: 1130px;
     max-height: 1650px;
-    margin-left: 400px;
+
+    
 }
 
 .header {
@@ -33,7 +34,6 @@ body {
     color: #e5e7eb;
     margin-bottom: 12px;
 }
-
 .logo {
     font-size: 24px;
     color: #f9faf8;
@@ -113,6 +113,7 @@ a {
     padding: 60px;
     border-radius: 12px;
     border: solid 2px #3882f6;
+    margin-bottom: 10px;
 }
 
 .heading-two {
@@ -167,5 +168,4 @@ a {
     color: white;
     padding: 20px;
     font-size: 12px;
-
 }
