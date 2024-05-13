@@ -7,7 +7,11 @@
 body {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     margin: 0px; 
+    max-width: 1130px;
+    max-height: 1650px;
+    margin-left: 400px;
 }
 
 .header {
