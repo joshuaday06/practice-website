@@ -1,0 +1,167 @@
+.header,
+.intro,
+.footer {
+    background-color: #1f2937;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px; 
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 110px;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+.right-links {
+    display: flex;
+    gap: 24px;
+}
+
+.text-one,
+.right-links {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 12px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 700;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.intro {
+    height: 300px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 200px 110px;
+} 
+
+.placeholder {
+    color: white;
+    background-color: grey;
+    padding: 80px 100px;
+    flex-shrink: 0;
+}
+
+.heading-one {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.button,
+.container {
+    background-color: #3882f6;
+    border: solid 1px #3882f6;
+}
+
+.button {
+    border-radius: 8px;
+    padding: 6px 24px;
+    font-weight: 500;
+    text-wrap: nowrap;
+}
+
+.button.outline {
+    border: solid 2px white
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 36px;
+    gap: 36px;
+    margin-bottom: 50px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 200px;
+    gap: 30px;
+    text-align: center;
+}
+
+.box {
+    padding: 60px;
+    border-radius: 12px;
+    border: solid 2px #3882f6;
+}
+
+.heading-two {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.quote-box {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding: 110px 250px;
+}
+
+.author-name {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.text-two {
+    font-size: 36px;
+    font-family: "light italic";
+    color: #1f2937;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 200px;
+    padding: 40px 100px;
+    color: white;
+    align-items: center;
+    gap: 100px;
+}
+
+.heading-three {
+    font-weight: 700;
+    font-size: 24px;
+
+}
+
+.text-three {
+    font-size: 14px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 20px;
+    font-size: 12px;
+
+}
